@@ -4,6 +4,8 @@ import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
 import {Skills} from "./Skills/Skills";
 import {Projects} from "./Projects/Projects";
+import {Contact} from "./Contacts/Contact";
+import {Footer} from "./Footer/Footer";
 
 const App=()=> {
   return (
@@ -12,7 +14,8 @@ const App=()=> {
         <Main/>
         <Skills/>
         <Projects/>
-      app
+        <Contact/>
+     <Footer/>
     </div>
   );
 }

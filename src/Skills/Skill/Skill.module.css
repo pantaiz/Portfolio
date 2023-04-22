@@ -6,10 +6,16 @@
     width: 250px;
     background-color: aqua;
     border: 1px solid deeppink;
+    padding: 10px;
 
 }
-
-.icon{
+.description{
+    background-color: gray;
+}
+.skillTitle{
+    background-color: gray;
+}
+.icon {
     width: 60px;
     height: 60px;
     background-color: #6164fb;

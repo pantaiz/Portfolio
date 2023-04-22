@@ -1,0 +1,28 @@
+.mainBlock{
+    background-color: #fff3b5;
+    min-height: 50vh;
+}
+
+
+.projectsContainer{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.title{
+
+}
+
+.contactTextarea{
+    resize: none
+}
+.form{
+    gap: 10px;
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+}

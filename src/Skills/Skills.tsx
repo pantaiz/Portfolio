@@ -7,11 +7,11 @@ import {v1} from "uuid";
 type TempInitialSkilStateType = Array<{ title: string, icon: string, description: string }>
 const TempInitialSkilState: TempInitialSkilStateType = [
     {title: 'HTML', icon: 'icon', description: 'description'},
-    {title: 'CSS', icon: 'icon', description: 'description'},
-    {title: 'React', icon: 'icon', description: 'description'},
-    {title: 'React', icon: 'icon', description: 'description'},
-    {title: 'React', icon: 'icon', description: 'description'},
-    {title: 'React', icon: 'icon', description: 'description'},
+    {
+        title: 'React',
+        icon: 'icon',
+        description: ' description description descriptio ndescriptio ndescr iption descript iondescrip iondescr iption'
+    },
     {title: 'Redux', icon: 'icon', description: 'description'}]
 export const Skills = () => {
     return (

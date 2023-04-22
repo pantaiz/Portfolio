@@ -6,16 +6,17 @@ import {v1} from "uuid";
 
 type TempInitialSkilStateType = Array<ProjectType>
 const TempInitialSkilState: TempInitialSkilStateType = [
-    {title: 'HTML', img: 'icon', description: 'description', url: ''},
-    {title: 'HTML', img: 'icon', description: 'description', url: ''},
+    {title: 'todolist', img: 'icon', description: 'description', url: 'https://pantaiz.github.io/samurai-way/'},
+    {title: 'social network', img: 'icon', description: 'description', url: 'https://pantaiz.github.io/todolist/'},
+    {title: 'counter', img: 'icon', description: 'description', url: 'https://pantaiz.github.io/Counter/'},
 ]
 export const Projects = () => {
     return (
-        <div className={styles.skillsBlock}>
-            <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
-                <h2 className={styles.title}>My Skills</h2>
+        <div className={styles.projectsBlock}>
+            <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
+                <h2 className={styles.title}>My Projects</h2>
 
-                <div className={styles.skills}>
+                <div className={styles.projects}>
                     {TempInitialSkilState.map(s =>
                         <Project key={v1()}
                                  title={s.title}

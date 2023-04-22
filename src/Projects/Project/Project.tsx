@@ -5,12 +5,14 @@ export type ProjectType = {
     title: string,
     img: string,
     description: string
-    url:string
+    url: string
 }
-export const Project = ({title, description, img,url}: ProjectType) => {
+export const Project = ({title, description, img, url}: ProjectType) => {
     return (
         <div className={styles.project}>
-            <div className={styles.imgContainer}> <a href={''}></a> </div>
+            <div className={styles.imgContainer}>
+                <a href={url}>Click me</a>
+            </div>
             <h3>{title}</h3>
             <span>{description}</span>
         </div>

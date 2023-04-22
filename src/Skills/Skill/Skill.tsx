@@ -10,8 +10,8 @@ export const Skill = ({title, description, icon}: propsType) => {
     return (
         <div className={styles.skill}>
             <div className={styles.icon}>{icon}</div>
-            <h3>{title}</h3>
-            <span>{description}</span>
+            <h3 className={styles.skillTitle}>{title}</h3>
+            <span className={styles.description}>{description}</span>
         </div>
     )
 }

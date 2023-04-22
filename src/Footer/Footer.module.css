@@ -1,0 +1,21 @@
+
+.mainBlock{
+    background-color: #b5fffd;
+    height: 100px
+}
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #fb61f8 1px solid;
+
+}
+
+.socialNetworkBlock{
+    width: 300px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+}
