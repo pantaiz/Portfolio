@@ -14,7 +14,7 @@
 }
 
 .socialNetworkBlock{
-    width: 300px;
+    max-width: 300px;
     border: 1px solid grey;
     display: flex;
     justify-content: space-evenly;
