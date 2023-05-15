@@ -13,15 +13,36 @@
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
     background-color: white;
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url('../../src/common/assets/img/photo.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #fdad97;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 45rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 25rem;
 }
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
 .nameText {
     font-size: 200px;
     font-weight: 800;
-    background:url(https://eldon.qodeinteractive.com/wp-content/uploads/2021/08/landing-rev-02.jpg) no-repeat center/cover;
-    -webkit-background-clip:text;
+    background: url(https://eldon.qodeinteractive.com/wp-content/uploads/2021/08/landing-rev-02.jpg) no-repeat center/cover;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
