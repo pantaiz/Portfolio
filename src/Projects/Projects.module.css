@@ -1,12 +1,14 @@
+
 .projectsBlock {
-    background-color: #baffb5;
     min-height: 50vh;
+    background: #000000;
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    padding-bottom: 20px;
 }
 
 .title {
@@ -15,9 +17,13 @@
 
 .projects {
     gap: 20px;
-    border: 1px solid red;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+@media (max-width:909px ) {
+    .projects{
+        justify-content: center;
+    }
 }

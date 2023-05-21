@@ -7,12 +7,20 @@ export const Main = () => {
         <div className={styles.mainBlock}>
 
             <div className={styleContainer.container}>
+                <div className={styles.texPhotoWrapper}>
 
-                <div className={styles.text}>
-                    <div className={styles.nameText}><div>Ivan</div> <div>Svitsich</div></div>
-                    <p>I'am frontend developer</p>
+                    <div className={styles.text}>
+                        <div className={styles.nameText}>
+                            <div>Ivan</div>
+                            <div>Svitsich</div>
+                        </div>
+                        <div>I'am frontend developer</div>
+                    </div>
+
+                    <div className={styles.photo}>
+                    </div>
+
                 </div>
-                <div className={styles.photo}>photo</div>
             </div>
         </div>
     )

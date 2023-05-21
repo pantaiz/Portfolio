@@ -1,6 +1,6 @@
 
 .mainBlock{
-    background-color: #b5fffd;
+    background-color: #000000;
     height: 100px
 }
 .footer {
@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: #fb61f8 1px solid;
+
 
 }
 

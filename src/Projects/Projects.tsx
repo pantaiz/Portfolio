@@ -3,12 +3,17 @@ import styles from './Projects.module.css';
 import styleContainer from './../common/styles/container.module.css'
 import {Project, ProjectType} from "./Project/Project";
 import {v1} from "uuid";
+import todoIMG from "../common/assets/img/project/todolist.png"
+import socialIMG from "../common/assets/img/project/socialNetwork.png"
+import tetrisIMG from "../common/assets/img/project/tetris.jpg"
+import mapIMG from "../common/assets/img/project/map2k.png"
 
 type TempInitialSkilStateType = Array<ProjectType>
 const TempInitialSkilState: TempInitialSkilStateType = [
-    {title: 'todolist', img: 'icon', description: 'description', url: 'https://pantaiz.github.io/samurai-way/'},
-    {title: 'social network', img: 'icon', description: 'description', url: 'https://pantaiz.github.io/todolist/'},
-    {title: 'counter', img: 'icon', description: 'description', url: 'https://pantaiz.github.io/Counter/'},
+    {title: 'Todolist', img: todoIMG, description: 'description', url: 'https://pantaiz.github.io/samurai-way/'},
+    {title: 'Social Network', img: socialIMG, description: 'description', url: 'https://pantaiz.github.io/todolist/'},
+    {title: 'Tetris', img: tetrisIMG, description: 'description', url: 'https://pantaiz.github.io/Counter/'},
+    {title: 'Search Map', img: mapIMG, description: 'description', url: 'https://pantaiz.github.io/Counter/'},
 ]
 export const Projects = () => {
     return (

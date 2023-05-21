@@ -10,7 +10,7 @@ export type ProjectType = {
 export const Project = ({title, description, img, url}: ProjectType) => {
     return (
         <div className={styles.project}>
-            <div className={styles.imgContainer}>
+            <div className={styles.imgContainer} style={{backgroundImage:`url(${img})`}}>
                 <a href={url}>Click me</a>
             </div>
             <h3>{title}</h3>
