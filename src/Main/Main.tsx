@@ -1,11 +1,10 @@
 import React from 'react';
-import styles from './Main.module.css';
+import styles from './Main.module.scss';
 import styleContainer from './../common/styles/container.module.css'
 
 export const Main = () => {
     return (
         <div className={styles.mainBlock}>
-
             <div className={styleContainer.container}>
                 <div className={styles.texPhotoWrapper}>
 
@@ -18,6 +17,7 @@ export const Main = () => {
                     </div>
 
                     <div className={styles.photo}>
+
                     </div>
 
                 </div>

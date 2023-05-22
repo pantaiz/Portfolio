@@ -1,20 +1,20 @@
 import React from 'react';
-import styles from './Skills.module.css';
+import styles from './Skills.module.scss';
 import styleContainer from './../common/styles/container.module.css'
 import {Skill} from "./Skill/Skill";
 import {v1} from "uuid";
-import reactIcon from "../common/assets/img/iconskill/react.png"
-import reduxIcon from "../common/assets/img/iconskill/redux.png"
-import tsIcon from "../common/assets/img/iconskill/typescript.png"
-import jsIcon from "../common/assets/img/iconskill/js.png"
-import storybookIcon from "../common/assets/img/iconskill/storybook.png"
-import gitIcon from "../common/assets/img/iconskill/git.png"
-import MUIIcon from "../common/assets/img/iconskill/MUI.png"
-import HTML from "../common/assets/img/iconskill/html.png"
-import CSS from "../common/assets/img/iconskill/css.png"
-import Rest from "../common/assets/img/iconskill/rest-api.png"
-import unit from "../common/assets/img/iconskill/unit.png"
-import ant from "../common/assets/img/iconskill/ant-design.png"
+import reactIcon from "../assets/img/iconskill/react.png"
+import reduxIcon from "../assets/img/iconskill/redux.png"
+import tsIcon from "../assets/img/iconskill/typescript.png"
+import jsIcon from "../assets/img/iconskill/js.png"
+import storybookIcon from "../assets/img/iconskill/storybook.png"
+import gitIcon from "../assets/img/iconskill/git.png"
+import MUIIcon from "../assets/img/iconskill/MUI.png"
+import HTML from "../assets/img/iconskill/html.png"
+import CSS from "../assets/img/iconskill/css.png"
+import Rest from "../assets/img/iconskill/rest-api.png"
+import unit from "../assets/img/iconskill/unit.png"
+import ant from "../assets/img/iconskill/ant-design.png"
 
 
 type TempInitialSkilStateType = Array<{ title: string, icon: string }>

@@ -1,0 +1,18 @@
+@import "../common/styles/sass/variables";
+.headerWrapper {
+    width: 100%;
+    height: 80px;
+    background-color: $bgColor;
+    .header {
+        height: 80px;
+        border-bottom: $textColor 2px solid;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: RGBA(0, 0, 0, 0.5);
+        position: fixed;
+        z-index: 10;
+    }
+}
+

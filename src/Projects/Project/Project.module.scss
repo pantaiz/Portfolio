@@ -1,0 +1,24 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+.project {
+  @include flexCenter();
+  flex-direction: column;
+  width: 300px;
+  border: 2px solid $textColor;
+  .skillTitle {
+    padding: 10px;
+  }
+  .imgContainer {
+    background: #fff;
+    width: 100%;
+    height: 200px;
+    @include flexCenter();
+    background-size: cover;
+    background-position: center;
+  }
+
+  .button {
+
+  }
+}

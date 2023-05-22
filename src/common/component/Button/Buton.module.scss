@@ -1,0 +1,75 @@
+%test {
+  position: absolute;
+  content: '';
+  transition: all 0.6s;
+}
+
+.buttonWrapper {
+  min-width: 190px;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackWhite {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transform: translate(-0%, -0%);
+  text-decoration: none;
+  font-size: 20px;
+  transition: all .5s;
+  background-color: black;
+box-sizing: border-box;
+&:hover{
+  border:2px solid white;
+}
+
+  &::before {
+    /*нижняя граница*/
+    @extend %test;
+    bottom: -10px;
+    height: 10px;
+    width: 100%;
+    left: 5.4px;
+    transform: skewX(45deg);
+    background-color: white;
+  }
+
+  &::after {
+    /*правая граница*/
+    @extend %test;
+    right: -10px;
+    height: 100%;
+    width: 10px;
+    bottom: -5.4px;
+    transform: skewY(45deg);
+    background-color: white;
+
+  }
+
+  &:hover {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    &::before {
+      /*нижняя граница*/
+      bottom: 0px;
+      height: 1px;
+      left: 0px;
+      width: 100%;
+    }
+
+    &::after {
+      /*правая граница*/
+      right: 0px;
+      height: 100%;
+      width: 1px;
+      bottom: 0px;
+    }
+  }
+}

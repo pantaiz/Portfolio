@@ -1,9 +1,0 @@
-.nav {
-    width: 350px;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-}
-a{
-    color: white;
-}

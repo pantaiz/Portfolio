@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.css';
+import styles from './Footer.module.scss';
 import styleContainer from "../common/styles/container.module.css";
 
 type socialNetworkState = Array<{ icon: string, src: string }>

@@ -1,0 +1,18 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+.mainBlock{
+    background-color: $bgColor;
+    height: 100px;
+    .footer {
+        height: 80px;
+       @include flexCenter();
+        flex-direction: column;
+        .socialNetworkBlock{
+            max-width: 300px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+

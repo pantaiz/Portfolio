@@ -1,0 +1,28 @@
+.mainBlock{
+    background-color: #000000;
+    .projectsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        .form{
+            gap: 10px;
+            min-width: 500px;
+            display: flex;
+            flex-direction: column;
+            .contactTextarea{
+                resize: none
+            }
+            @media (max-width: 800px) {
+                    min-width: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

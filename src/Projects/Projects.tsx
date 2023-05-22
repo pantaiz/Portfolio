@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './Projects.module.css';
+import styles from './Projects.module.scss';
 import styleContainer from './../common/styles/container.module.css'
 import {Project, ProjectType} from "./Project/Project";
 import {v1} from "uuid";
-import todoIMG from "../common/assets/img/project/todolist.png"
-import socialIMG from "../common/assets/img/project/socialNetwork.png"
-import tetrisIMG from "../common/assets/img/project/tetris.jpg"
-import mapIMG from "../common/assets/img/project/map2k.png"
+import todoIMG from "../assets/img/project/todolist.png"
+import socialIMG from "../assets/img/project/socialNetwork.png"
+import tetrisIMG from "../assets/img/project/tetris.jpg"
+import mapIMG from "../assets/img/project/map2k.png"
 
 type TempInitialSkilStateType = Array<ProjectType>
 const TempInitialSkilState: TempInitialSkilStateType = [

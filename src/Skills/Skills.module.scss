@@ -1,0 +1,27 @@
+@import "../common/styles/sass/variables";
+
+.skillsBlock {
+  background-color: $bgColor;
+  min-height: 50vh;
+
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  }
+}
+
+
+
+
+
