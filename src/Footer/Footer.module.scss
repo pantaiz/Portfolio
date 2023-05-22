@@ -1,18 +1,46 @@
 @import "../common/styles/sass/variables";
 @import "../common/styles/sass/mixins";
-.mainBlock{
-    background-color: $bgColor;
+
+.mainBlock {
+  background-color: $bgColor;
+
+  .footer {
     height: 100px;
-    .footer {
-        height: 80px;
-       @include flexCenter();
-        flex-direction: column;
-        .socialNetworkBlock{
-            max-width: 300px;
-            display: flex;
-            justify-content: space-evenly;
+    @include flexCenter();
+    flex-direction: column;
+
+    .socialNetworkBlock {
+
+      display: flex;
+      justify-content: space-evenly;
+      gap: 10px;
+
+      .iconContainer {
+        @include flexCenter();
+        width: 55px;
+        height: 55px;
+        background-color: $textColor;
+        box-sizing: border-box;
+        border-radius: 3px;
+
+        .icon {
+          @include flexCenter();
+          width: 40px;
+          height: 40px;
+          border-radius: 5px;
+
+
+
+
         }
+        &:hover {
+          background-color: $bgColor;
+          border:$textColor 1px solid;
+          fill: $textColor;
+        }
+      }
     }
+  }
 }
 
 
