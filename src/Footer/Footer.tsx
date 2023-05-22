@@ -24,24 +24,32 @@ export const Footer = () => {
         <div className={styles.mainBlock}>
             <div className={`${styleContainer.container} ${styles.footer}`}>
                 <div className={styles.socialNetworkBlock}>
-                    <div className={styles.iconContainer}>
-                        <GitIcon className={styles.icon}/>
-                    </div>
-                    <div className={styles.iconContainer}>
-                        <CodewarsIcon className={styles.icon}/>
-                    </div>
-                    <div className={styles.iconContainer}>
-                        <LinkidnIcon className={styles.icon}/>
-                    </div>
-                    <div className={styles.iconContainer}>
-                        <EmailIcon className={styles.icon}/>
-                    </div>
-                    <div className={styles.iconContainer}>
-                        <TelegramIcon className={styles.icon}/>
-                    </div>
-                    {/*   {socialNetworkState.map(s => <a className={styles.icon} href={s.href}>
-                        <svg style={{width:'50px',height:'50px'}} src={s.icon}/>
-                    </a>)}*/}
+                    <a href={'https://github.com/pantaiz'}>
+                        <div className={styles.iconContainer}>
+                            <GitIcon className={styles.icon}/>
+                        </div>
+                    </a>
+                    <a href={'https://www.codewars.com/users/pantaiz'}>
+                        <div className={styles.iconContainer}>
+                            <CodewarsIcon className={styles.icon}/>
+                        </div>
+                    </a>
+                    <a href={'https://www.linkedin.com/in/ivan-svitsich-87561a206/'}>
+                        <div className={styles.iconContainer}>
+                            <LinkidnIcon className={styles.icon}/>
+                        </div>
+                    </a>
+                    <a href={'mailto:pantaiz@yandex.ru'}>
+                        <div className={styles.iconContainer}>
+                            <EmailIcon className={styles.icon}/>
+                        </div>
+                    </a>
+                    <a href={'https://t.me/pantaiz'}>
+                        <div className={styles.iconContainer}>
+                            <TelegramIcon className={styles.icon}/>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>

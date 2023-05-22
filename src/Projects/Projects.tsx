@@ -6,20 +6,21 @@ import {v1} from "uuid";
 import todoIMG from "../assets/img/project/todolist.png"
 import socialIMG from "../assets/img/project/socialNetwork.png"
 import tetrisIMG from "../assets/img/project/tetris.jpg"
-import mapIMG from "../assets/img/project/map2k.png"
+import mapSVG from "../assets/img/project/map2k.png"
+import {Title} from "../common/component/Title/Title";
 
 type TempInitialSkilStateType = Array<ProjectType>
 const TempInitialSkilState: TempInitialSkilStateType = [
-    {title: 'Todolist', img: todoIMG, description: 'description', url: 'https://pantaiz.github.io/samurai-way/'},
-    {title: 'Social Network', img: socialIMG, description: 'description', url: 'https://pantaiz.github.io/todolist/'},
-    {title: 'Tetris', img: tetrisIMG, description: 'description', url: 'https://pantaiz.github.io/Counter/'},
-    {title: 'Search Map', img: mapIMG, description: 'description', url: 'https://pantaiz.github.io/Counter/'},
+    {title: 'Todolist', img: todoIMG, description: 'description', url: 'https://github.com/pantaiz/todolist'},
+    {title: 'Social Network', img: socialIMG, description: 'description', url: 'https://github.com/pantaiz/samurai-way'},
+    {title: 'Tetris', img: tetrisIMG, description: 'description', url: 'https://pantaiz.github.io/tetris/'},
+    {title: 'Search Map', img:mapSVG, description: 'description', url: 'http://x29206hr.beget.tech/'},
 ]
 export const Projects = () => {
     return (
         <div className={styles.projectsBlock}>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
-                <h2 className={styles.title}>My Projects</h2>
+                <Title title={'My Projects'}/>
 
                 <div className={styles.projects}>
                     {TempInitialSkilState.map(s =>

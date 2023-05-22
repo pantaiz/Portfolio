@@ -15,6 +15,7 @@ import CSS from "../assets/img/iconskill/css.png"
 import Rest from "../assets/img/iconskill/rest-api.png"
 import unit from "../assets/img/iconskill/unit.png"
 import ant from "../assets/img/iconskill/ant-design.png"
+import {Title} from "../common/component/Title/Title";
 
 
 type TempInitialSkilStateType = Array<{ title: string, icon: string }>
@@ -36,8 +37,7 @@ export const Skills = () => {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
-                <h2 className={styles.title}>My Skills</h2>
-
+                <Title title={'My Skills'}/>
                 <div className={styles.skills}>
                     {TempInitialSkilState.map(s =>
                         <Skill key={v1()}
