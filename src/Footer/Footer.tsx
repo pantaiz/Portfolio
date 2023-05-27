@@ -8,13 +8,7 @@ import {ReactComponent as TelegramIcon} from '../assets/img/iconfooter/telegram.
 import {ReactComponent as EmailIcon} from '../assets/img/iconfooter/email.svg'
 
 type socialNetworkState = Array<{ icon: string, href: string }>
-/*const socialNetworkState: socialNetworkState = [
-    {icon: githubIcon, href: 'https://github.com/pantaiz',},
-    {icon: emailIcon, href: 'mailto:pantaiz@yandex.ru',},
-    {icon: codewarsIcon ,href: 'https://www.codewars.com/users/pantaiz',},
-    {icon: telegramIcon ,href: 'https://t.me/pantaiz',},
-    {icon: linIcon ,href: 'https://www.linkedin.com/in/ivan-svitsich-87561a206/',},
-]*/
+
 
 
 export const Footer = () => {

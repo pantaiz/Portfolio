@@ -1,6 +1,26 @@
-@mixin flexCenter(){
+@mixin flex($align:center,$justify:center){
   display: flex;
-  align-items: center;
- justify-content: center;
+  align-items: $align;
+ justify-content: $justify;
 
 }
+
+@mixin animationFontWeight($delayIndex){
+  text-align:left ;
+  animation: textWeight 2.8s cubic-bezier(.46,.03,.52,.96) infinite forwards;
+  animation-delay: calc($delayIndex * 150ms);
+  width: 370px;
+  @keyframes textWeight {
+    0% {
+      font-weight: 900;
+    }
+    15% {
+      font-weight: 100
+    }
+    30% {
+      font-weight: 900
+    }
+    100% {
+      font-weight: 900;
+    }
+}}

@@ -1,20 +1,28 @@
 @import "../../common/styles/sass/variables";
 @import "../../common/styles/sass/mixins";
+
 .skill {
-    @include flexCenter();
-    flex-direction: column;
+  @include flex();
+  flex-direction: column;
+  width: 120px;
+  padding: 10px;
+
+  .icon {
+    @include flex();
     width: 120px;
-    padding: 10px;
-    .icon {
-        @include flexCenter();
-        width: 80px;
-        height: 80px;
-        border-radius: 100px;
-        background-color:$textColor;
+    height: 120px;
+    border-radius: 100px;
+    background-color: $textColor;
+
+    img {
+      width: 80px;
+      height: 80px;
     }
-    .skillTitle {
-        font-weight: 100;
-    }
+  }
+
+  .skillTitle {
+    font-weight: 100;
+  }
 
 
 }

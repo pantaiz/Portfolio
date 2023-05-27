@@ -3,7 +3,7 @@
 .mainBlock {
     min-height: 100vh;
     background-color: $bgColor;
-    @include flexCenter();
+    @include flex();
     .texPhotoWrapper {
         display: flex;
         justify-content: space-between;

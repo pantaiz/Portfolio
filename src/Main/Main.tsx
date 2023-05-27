@@ -17,7 +17,7 @@ export const Main = () => {
                     </div>
 
                     <div className={styles.photo}>
-
+                        {/*here my img*/}
                     </div>
 
                 </div>
