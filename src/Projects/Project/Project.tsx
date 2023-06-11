@@ -12,10 +12,9 @@ export const Project = ({title, description, img, url}: ProjectType) => {
     return (
         <div className={styles.project}>
             <div className={styles.imgContainer} style={{backgroundImage: `url(${img})`}}>
-                {/*<a href={url}>Click me</a>*/}
             </div>
             <h3>{title}</h3>
-            <span>{description}</span>
+            <span className={styles.description}>{description}</span>
             <div className={styles.button}><BlackWhiteButton title={'Watch'} href={url}/></div>
         </div>
     )

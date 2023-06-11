@@ -1,14 +1,18 @@
 @import "../../common/styles/sass/variables";
 @import "../../common/styles/sass/mixins";
-/*hjnhgjjgyh*/
+
 .project {
+  color: $textColor;
   @include flex();
   flex-direction: column;
+  justify-content: space-between;
   width: 300px;
   border: 2px solid $textColor;
+
   .skillTitle {
     padding: 10px;
   }
+
   .imgContainer {
     background: #fff;
     width: 100%;
@@ -17,6 +21,8 @@
     background-size: cover;
     background-position: center;
   }
+
+
 
   .button {
 

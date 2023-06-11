@@ -4,7 +4,7 @@ import styleContainer from './../common/styles/container.module.css'
 
 export const Main = () => {
     return (
-        <div className={styles.mainBlock}>
+        <div className={styles.mainBlock} id={'main'}>
             <div className={styleContainer.container}>
                 <div className={styles.texPhotoWrapper}>
 
